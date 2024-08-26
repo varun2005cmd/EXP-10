@@ -11,9 +11,14 @@ void swap(int *x, int *y){
 int main() {
 int a =100 ,b = 500;
 
+  cout<<endl<<"Before swapping the value of a is: "<<endl<<a;
+  cout<<endl<<"Before swapping the value of b is: "<<endl<<b;
+
+
   swap(&a,&b);
-  cout<<endl<<a;
-  cout<<endl<<b;
+
+  cout<<endl<<"After swapping the value of a is: "<<endl<<a;
+  cout<<endl<<"After swapping the value of b is: "<<endl<<b;
 
     return 0;
 }
