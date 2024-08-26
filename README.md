@@ -1,6 +1,6 @@
-# EXP-10
+# Experiment-10
 
-## Call by Value vs Call by Reference Experiment
+# Call by Value vs Call by Reference 
 
 ## Aim:
 The aim of this experiment is to understand and compare the two mechanisms of passing arguments in functions: Call by Value and Call by Reference, using a simple C++ program. The program swaps two integers using Call by Reference.
@@ -52,4 +52,10 @@ int a =100 ,b = 500;
 ```
 
 ## Output: 
+
+![image](https://github.com/user-attachments/assets/05c82690-f716-4dff-8255-8d2cf4ebfb03)
+
+## Conclusion:
+
+In this experiment, we successfully demonstrated the difference between Call by Value and Call by Reference using a C++ program. By passing arguments by reference, the function was able to directly modify the original variables, as seen in the swapping of two integers. 
 
